@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import GetGoal from './components/GetGoal';
 import HeroSection from './components/HeroSection';
 import OurClients from './components/OurClients';
+import Strategy from './components/Strategy';
 import TargetGroup from './components/TargetGroup';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
      <FindOut/>
      <About/>
      <OurClients/>
-
+     <Strategy/>
      <Footer/>
     </>
   );

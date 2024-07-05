@@ -2,22 +2,27 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import MJH4 from '../assets/images/svg/MJH4.svg'
+import AnalysisEllipse from '../assets/images/webp/AnalysisEllipse.png'
 const Analysis = () => {
     var settings = {
         dots: true,
         infinite: true,
         fade:true,
+        arrows:false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         waitForAnimate: false
       };
   return (
-   <section className=' pt-[300px] pb-[186px]'>
-    <div className=" max-w-[1164px] px-3 mx-auto">
+   <section className=' relative overflow-hidden'>
+    <img src={AnalysisEllipse} alt="AnalysisEllipse" className=' absolute top-[-52.2%]' />
+    <div className=" max-w-[1164px] px-3 mx-auto  pt-[300px] pb-[186px] relative">
+      <img src={MJH4} alt="MJH4" className=' absolute right-0 top-2' />
         <div className=" flex flex-wrap">
             <div className="w-[50%]">
-                <h4 className=' text-[29.3px] leading-[37.8px] font-Helvetica font-normal'>THE FOUR PHASES OF</h4>
+                <h4 className=' text-[29.3px] leading-[37.8px] font-Helvetica font-normal pt-9'>THE FOUR PHASES OF</h4>
                 <h2 className='text-[52px] leading-[62.4px] font-Helvetica font-normal max-w-[327px]'>SEPARATION <span className='text-[#F77B0B]'>MINDSET</span></h2>
                 <p className=' text-base leading-[25.6px] font-Poppins font-normal pt-5 '>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
             </div>

@@ -1,10 +1,16 @@
 import React from 'react'
 import MenWithBeard from '../assets/images/webp/MenWithBeard.png'
 import BtnArrow from '../assets/images/svg/BtnArrow.svg'
+import AboutEllipse from '../assets/images/webp/AboutEllipse.png'
+import MJH5 from '../assets/images/svg/MJH5.svg'
+import MJH6 from '../assets/images/svg/MJH6.svg'
 const About = () => {
   return (
-   <section>
-    <div className=" pt-[239px] pb-[202px] px-3 max-w-[1164px] mx-auto">
+   <section className='relative'>
+        <img src={AboutEllipse} alt="AboutEllipse" className=' absolute right-0 bottom-[17%]' />
+    <div className=" pt-[239px] pb-[202px] px-3 max-w-[1164px] mx-auto relative">
+        <img src={MJH5} alt="MJH5" className=' absolute top-3' />
+        <img src={MJH6} alt="MJH6" className=' absolute bottom-[-4%] right-0' />
         <div className=" flex flex-wrap -mx-3">
             <div className=" w-[50%] px-3">
                 <img src={MenWithBeard} alt="MenWithBeard" className=' w-full max-w-[560px]' />
