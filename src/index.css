@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(./assets/fonts/HelveticaNeueLight.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.Gradient-Btn{
+    border-radius: 59px;
+    background:white;
+    backdrop-filter: blur(31.4px);
+    position: relative;
+    padding: 1.7px;
+  }
+  .Gradient-Btn::after{
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    padding: inherit;
+    background: linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%);
+    inset: 0;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+  }

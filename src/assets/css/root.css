@@ -1,0 +1,106 @@
+:root{
+    /*========= font size ====== */
+    --font-xsm: 16px;
+    --font-sm: 18.8px;
+    --font-xmd: 20px;
+    --font-md: 29.3px;
+    --font-xlg: 36.9px;
+    --font-lg: 40px;
+    --font-xl: 52px;
+    --font-2xl: 60px;
+    --font-3xl: 60.6px;
+    /*=========== line height =========== */
+    --line-height-xsm: 20.6px;
+    --line-height-sm: 24px;
+    --line-height-xmd: 25.6px;
+    --line-height-md: 27.2px;
+    --line-height-xlg: 28px;
+    --line-height-lg: 32px;
+    --line-height-xl: 34px;
+    --line-height-2xl: 37.8px;
+    --line-height-3xl: 47.6px;
+    --line-height-4xl: 51.5px;
+    --line-height-5xl: 62.4px;
+    --line-height-6xl: 66.9px;
+    --line-height-7xl: 77.2px;
+    --line-height-8xl: 78.1px;
+    /*============= colors ============ */
+    --light-brown:#F77B0B;
+    --blue:#003E92;
+    --light-blue:#F2F8FF;
+}
+.bg_lightBlue{
+    background: var(--light-blue);
+}
+.color_brown{
+    color: var(--light-brown);
+}
+.font_xsm{
+    font-size: var(--font-xsm);
+}
+.font_sm{
+    font-size: var(--font-sm);
+}
+.font_xmd{
+    font-size: var(--font-xmd);
+}
+.font_md{
+    font-size: var(--font-md);
+}
+.font_xlg{
+    font-size: var(--font-xlg);
+}
+.font_lg{
+    font-size: var(--font-lg);
+}
+.font_xl{
+    font-size: var(--font-xl);
+}
+.font_2xl{
+    font-size: var(--font-2xl);
+}
+.font_3xl{
+    font-size: var(--font-3xl);
+}
+.lh_xsm{
+    line-height: var(--line-height-xsm);
+}
+.lh_sm{
+    line-height: var(--line-height-sm);
+}
+.lh_xmd{
+    line-height: var(--line-height-xsm);
+}
+.lh_md{
+    line-height: var(--line-height-md);
+}
+.lh_xlg{
+    line-height: var(--line-height-xlg);
+}
+.lh_lg{
+    line-height: var(--line-height-lg);
+}
+.lh_xl{
+    line-height: var(--line-height-xl);
+}
+.lh_2xl{
+    line-height: var(--line-height-2xl);
+}
+.lh_3xl{
+    line-height: var(--line-height-3xl);
+}
+.lh_4xl{
+    line-height: var(--line-height-4xl);
+}
+.lh_5xl{
+    line-height: var(--line-height-5xl);
+}
+.lh_6xl{
+    line-height: var(--line-height-6xl);
+}
+.lh_7xl{
+    line-height: var(--line-height-7xl);
+}
+.lh_8xl{
+    line-height: var(--line-height-8xl);
+}
