@@ -8,11 +8,11 @@ const Fault = () => {
          <div className=" w-[58.33%] px-3 flex justify-end">
          <div className=" flex flex-col">
             <h2 className=' font-Helvetica text-[60px] leading-[77.2px]'>IT'S NOT</h2>
-            <h2 className=' font-Helvetica text-[60px] leading-[77.2px] -mt-2 ps-16 ms-2'><span className=' text-[#F77B0B]'>YOUR</span> FAULT!</h2>
+            <h2 className=' font-Helvetica text-[60px] leading-[77.2px] -mt-2 md:ps-12 lg:ps-16 ms-2'><span className=' text-[#F77B0B]'>YOUR</span> FAULT!</h2>
             </div>
          </div>
           <div className=" w-[41.66%] px-3">
-          <div className=" flex gap-[14px] items-center ps-9">
+          <div className=" flex gap-[14px] items-center lg:ps-9">
                 <div className=" bg-[#9800B0] w-[2px] min-h-[67.8px]"></div>
                 <p className=' text-base leading-[25.6px] font-Poppins font-normal max-w-[288px] '>It's not your fault for not knowing how to let go of the partner who no longer made you feel special. </p>
              </div>
@@ -31,7 +31,7 @@ const Fault = () => {
                         <p className=' text-white max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
                     </div>
                     <div className=" bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center pt-[43px] w-[33.33%]">
-                        <p className=' text-white max-w-[173px] w-full'>You keep asking yourself what you did wrong.
+                        <p className=' text-white max-w-[196px] w-full'>You keep asking yourself what you did wrong.
                         </p>
                     </div>
                     <div className=" bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center pt-[43px] w-[33.33%]">
@@ -45,7 +45,7 @@ const Fault = () => {
                         <p className=' text-white max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
                     </div>
                     <div className=" bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center pt-[45px] w-[33.33%]">
-                        <p className=' text-white max-w-[173px] w-full'>You keep asking yourself what you did wrong.
+                        <p className=' text-white max-w-[196px] w-full'>You keep asking yourself what you did wrong.
                         </p>
                     </div>
                     <div className=" bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center pt-[45px] w-[33.33%]">

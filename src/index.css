@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,22 +8,22 @@
     font-family: "Helvetica";
     src: url(./assets/fonts/HelveticaNeueLight.otf);
 }
-
-.Gradient-Btn{
-    border-radius: 59px;
-    background:white;
-    backdrop-filter: blur(31.4px);
-    position: relative;
-    padding: 1.7px;
-  }
-  .Gradient-Btn::after{
-    content: "";
-    position: absolute;
-    border-radius: inherit;
-    padding: inherit;
-    background: linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%);
-    inset: 0;
-    -webkit-mask: linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-  }
+.custom-pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+.custom-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #003E92; 
+}
+.custom-dots li button:before {
+  color: #FFFFFF !important;
+  opacity: 30%;
+font-size: 10px !important;
+}
+.custom-dots li.slick-active button:before {
+  color: #FFFFFF !important; 
+  font-size: 10px;
+  opacity: 1;
+}

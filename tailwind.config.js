@@ -16,8 +16,11 @@ module.exports = {
       fontFamily:{
         'Helvetica':'Helvetica',
         'Poppins':'Poppins , sans-serif' ,
+        'Inter':'Inter , sans-serif'
       },
-   
+      boxShadow: {
+        "SliderShadow":" 0px 2px 48px 0px #00000014",
+      },
     },
   },
   plugins: [],
