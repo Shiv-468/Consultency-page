@@ -5,10 +5,10 @@ import PhoneCall from '../assets/images/svg/PhoneCall.svg'
 import HeroEllipse from '../assets/images/webp/HeroEllipse.png'
 const HeroSection = () => {
   return (
-    <section className=' max-xl:min-h-screen bg-HeroBG flex bg-cover bg-no-repeat bg-center xl:!min-h-[810px] relative'>
-      <img src={HeroEllipse} alt="HeroEllipse" className=' absolute top-0' />
+    <section className=' max-xl:min-h-screen md:bg-HeroBG bg-white flex bg-cover bg-no-repeat bg-center xl:!min-h-[810px] 2xl:!min-h-[90vh] relative'>
+      <img src={HeroEllipse} alt="HeroEllipse" className=' absolute top-0 hidden md:block' />
       <div className=" max-w-[1164px] px-3 mx-auto w-full flex relative flex-col">
-       <div className=" absolute bottom-[-20%] xl:bottom-[-22%]">
+       <div className=" absolute bottom-[-20%] xl:bottom-[-22%] hidden md:block">
        <img src={MJH1} alt="MJH1" className=' relative' />
        <p className=' absolute top-[-18%] left-[-70%] rotate-[270deg] font-Poppins font-[300] text-[20px] leading-[34px]'>MJH</p>
        <div className=" absolute flex items-end bottom-[-4%] left-[100%]">
@@ -25,15 +25,16 @@ const HeroSection = () => {
             </ul>
           </div>
         </nav>
-        <div className=" flex flex-wrap -mx-3 w-full flex-grow justify-center">
-          <div className=" w-[50%] px-3 flex flex-col justify-center ">
+        <div className=" w-full flex flex-grow max-md:justify-center max-md:items-center">
+        <div className=" flex flex-wrap -mx-3 md:items-center md:justify-center md:flex-grow h-full">
+          <div className=" w-full md:w-[50%] px-3 flex flex-col justify-end md:justify-center ">
             <p className=' text-[18.8px] leading-[24.2px] text-[#F77B0B] font-Helvetica capitalize '>Marc joachim hubrich</p>
-            <h1 className=' text-[60px] leading-[77.2px] max-w-[517px] font-normal font-Helvetica uppercase pb-1'>Now I let you go!</h1>
+            <h1 className='text-[58px] leading-[57.2px] sm:text-[60px] sm:leading-[77.2px] max-w-[517px] font-normal font-Helvetica uppercase pb-1'>Now I let you go!</h1>
             <p className=' font-Poppins text-base leading-[25.6px] font-normal max-w-[517px] opacity-70'>For women who do not want to be completely dragged down by a SEPARATION.</p>
             <p className=' font-Poppins text-base leading-[25.6px] font-normal max-w-[517px] opacity-70'>How to let go of your EX so you can leave him behind without having to run to a therapist right away.</p>
-       <div className=" flex items-center gap-4 pt-[32px]">
-       <button class="bg-gradient-to-tr from-blue-500 to-purple-500 text-white font-medium max-w-[452px] rounded-[63px] p-[1.7px]">
-              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-[48px] w-full bg-white text-black rounded-[63px]  font-inter font-medium text-[16px] leading-[24px] ">
+       <div className=" flex items-center gap-2 xl:gap-4 pt-[32px]">
+       <button class="bg-gradient-to-tr from-blue-500 to-purple-500 max-w-[452px] lg:max-w-[452px] text-white font-medium md:max-w-[280px] rounded-[63px] p-[1.7px]">
+              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-[20px] xl:pe-[48px] w-full bg-white text-black rounded-[63px]  font-inter font-medium text-[16px] leading-[24px] ">
                 <img src={Chatting} alt="Chatting" />
                 <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text">Book a non-binding initial consultation now</span>
               </span>
@@ -41,19 +42,20 @@ const HeroSection = () => {
             <img src={PhoneCall} alt="PhoneCall" />
        </div>
           </div>
-          <div className=" w-[50%] px-3 justify-end flex flex-col">
-            <div className=" flex pb-[45.8px] justify-center ">
-              <div className=" flex justify-between max-w-[367px] border-l-[2px] border-[#9800B0]">
-                <p className=' text-white ps-[13px] font-Helvetica text-base leading-[27.2px] font-normal max-w-[165px]'>Die wichtigsten Aspekte einer Trennung:</p>
+          <div className=" w-full md:w-[50%] px-3 md:justify-end flex flex-col pt-6 md:h-full">
+            <div className=" flex md:pb-[45.8px] md:justify-center ps-5">
+              <div className=" flex flex-col sm:flex-row justify-between max-w-[367px] border-l-[2px] border-[#9800B0]">
+                <p className=' md:text-white ps-[13px] font-Helvetica text-base leading-[27.2px] font-normal sm:max-w-[165px]'>Die wichtigsten Aspekte einer Trennung:</p>
                 <div className=" flex flex-col">
-                  <ul>
-                    <li className=' font-Poppins font-medium text-base leading-[25.6px] text-white list-disc'>physische Trennung</li>
-                    <li className=' font-Poppins font-medium text-base leading-[25.6px] text-white list-disc'>mentale Trennung</li>
+                  <ul className=' ps-8'>
+                    <li className=' font-Poppins font-medium text-base leading-[25.6px] md:text-white list-disc'>physische Trennung</li>
+                    <li className=' font-Poppins font-medium text-base leading-[25.6px] md:text-white list-disc'>mentale Trennung</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>

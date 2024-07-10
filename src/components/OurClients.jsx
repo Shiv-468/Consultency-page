@@ -1,12 +1,14 @@
 import React from 'react'
 import MJH7 from '../assets/images/svg/MJH7.svg'
+import Semicollen from '../assets/images/webp/Semicollen.png'
 import SwipeSlide from './SwipeSlide'
 const OurClients = () => {
 
   return (
    <section> 
-    <div className=" max-w-[1164px] px-3 pb-[226px]  mx-auto relative">
-      <div className=" absolute bottom-4">
+    <div className=" max-w-[1164px] px-3 pb-14 sm:pb-[100px] md:pb-[200px] mx-auto relative">
+      <img src={Semicollen} alt="Semicollen" className=' absolute max-w-[100px] right-[5%] top-[15%] 2xl:left-[86%]' />
+      <div className=" absolute bottom-4 hidden md:block">
       <img src={MJH7} alt="MJH7" className=' relative' />
       <p className=' absolute top-[-16%] left-[-70%] rotate-[270deg] font-Poppins font-[300] text-[20px] leading-[34px]'>MJH</p>
        <div className=" absolute flex items-end bottom-[-2%] left-[100%]">
@@ -14,8 +16,8 @@ const OurClients = () => {
        <p className=' font-normal font-Helvetica text-[24px] leading-[30.9px] uppercase text-nowrap'>take step</p>
        </div>
       </div>
-        <h2 className=' text-[52px] leading-[66.9px] font-Helvetica uppercase font-normal text-center'>What our <span className=' text-[#F77B0B]'>clients</span> say</h2>
-        <div className=" mt-6">
+        <h2 className='text-[41px] leading-[44px] sm:text-[52px] sm:leading-[66.9px] font-Helvetica uppercase font-normal text-center'>What our <span className=' text-[#F77B0B]'>clients</span> say</h2>
+        <div className=" mt-6 -mx-3">
         <SwipeSlide/>
         </div>
       

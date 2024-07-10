@@ -54,3 +54,29 @@ export const Twitter = () => {
 </svg>
     )
   }
+  export const PrevArrow = ({onClick}) => {
+    return (
+      <div
+      className="custom-arrow custom-next-arrow hidden md:block"
+      onClick={onClick}
+    >
+     <svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 1.25098L2 18.251L20 35.251" stroke="#9800B0" stroke-width="1.5"/>
+</svg>
+    </div>
+
+
+    )
+  }
+  export const NextArrow = ( {onClick}) => {
+    return (
+      <div
+      className="custom-arrow custom-prev-arrow hidden md:block"
+      onClick={onClick}
+    >
+<svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1.25098L19 18.251L1 35.251" stroke="white" stroke-width="1.5"/>
+</svg>
+    </div>
+    )
+  }

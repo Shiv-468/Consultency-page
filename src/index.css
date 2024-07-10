@@ -11,10 +11,12 @@
 .custom-pagination {
   text-align: center;
   margin-top: 20px;
+  top: 58% !important;
 }
 .custom-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
+  margin: 0 !important;
   background-color: #003E92; 
 }
 .custom-dots li button:before {
@@ -26,4 +28,18 @@ font-size: 10px !important;
   color: #FFFFFF !important; 
   font-size: 10px;
   opacity: 1;
+}
+.custom-arrow {
+  position: absolute;
+  bottom: 23px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.custom-next-arrow {
+  left: -32px; 
+}
+
+.custom-prev-arrow {
+  left: 22px;
 }
