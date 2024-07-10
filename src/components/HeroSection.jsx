@@ -7,7 +7,6 @@ import { Sling as Hamburger } from 'hamburger-react'
 const HeroSection = () => {
   const [data, setData] = useState(false);
   const [isOpen, setOpen] = useState(false);
-
   useEffect(() => {
     if (data) {
       document.body.classList.add('overflow-hidden');
