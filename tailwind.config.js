@@ -20,6 +20,8 @@ module.exports = {
       },
       boxShadow: {
         "SliderShadow":" 0px 2px 48px 0px #00000014",
+        "BtnShadow":" 0px 0px 11px 3px rgba(135,3,197,1)",
+        "BtnShadowWhite":"0px 0px 11px 3px rgba(255,255,255,1)",
       },
     },
   },

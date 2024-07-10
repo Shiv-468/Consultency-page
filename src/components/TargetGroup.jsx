@@ -2,7 +2,7 @@ import React from 'react'
 
 const TargetGroup = () => {
   return (
-   <section className=' bg-[#F2F8FF]'>
+   <section className=' bg-[#F2F8FF]' id='Testimonials'>
     <div className=" max-w-[1164px] px-3 mx-auto pt-12">
 <div className=" md:pb-12 pb-6 mb-1">
     <h2 className='text-[45px] leading-[55px] md:text-[52px] md:leading-[66.9px] font-Helvetica font-normal uppercase text-center md:text-start'><span className='text-[#F77B0B]'>TARGET</span> group</h2>

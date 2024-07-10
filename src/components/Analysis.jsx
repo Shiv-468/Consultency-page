@@ -49,7 +49,7 @@ const Analysis = () => {
             <h4 className='text-[24px] sm:text-[29.3px] leading-[37.8px] font-Helvetica font-normal pt-9'>THE FOUR PHASES OF</h4>
             <h2 className='text-[33px] leading-[39px] sm:text-[52px] sm:leading-[62.4px] font-Helvetica font-normal lg:max-w-[327px] text-center md:text-start'>SEPARATION <span className='text-[#F77B0B]'>MINDSET</span></h2>
             <p className=' text-base leading-[25.6px] font-Poppins font-normal pt-5 max-w-[484px] '>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
-            <button class="bg-gradient-to-tr from-blue-500 to-purple-500 text-white font-medium mt-9 max-w-[452px] rounded-[63px] p-[1.7px]">
+            <button class="bg-gradient-to-tr from-blue-500 to-purple-500 hover:shadow-BtnShadow duration-300 ease-in-out font-medium mt-9 max-w-[452px] rounded-[63px] p-[1.7px]">
               <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-[48px] w-full bg-white text-black rounded-[63px]  font-inter font-medium text-[16px] leading-[24px] ">
                 <img src={Chatting} alt="Chatting" />
                 <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text">Book a non-binding initial consultation now</span>
