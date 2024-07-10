@@ -1,6 +1,6 @@
 import React from 'react'
 import Chatting from '../assets/images/svg/chatting.svg'
-import FaultEllipse from '../assets/images/webp/FaultEllipse.png'
+import FaultEllipse from '../assets/images/webp/FaultEllipse.webp'
 const Fault = () => {
     return (
         <section className=' md:pt-[151px] pb-12 sm:pb-[80px] md:pb-[122px] relative'>

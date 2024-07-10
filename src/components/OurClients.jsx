@@ -1,6 +1,6 @@
 import React from 'react'
 import MJH7 from '../assets/images/svg/MJH7.svg'
-import Semicollen from '../assets/images/webp/Semicollen.png'
+import Semicollen from '../assets/images/webp/Semicollen.webp'
 import SwipeSlide from './SwipeSlide'
 const OurClients = () => {
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import MarrieJames from '../assets/images/webp/MarrieJames.png';
+import MarrieJames from '../assets/images/webp/MarrieJames.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';

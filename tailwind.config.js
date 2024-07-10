@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        "HeroBG":"url('./assets/images/webp/HeroBG.png')",
-        "FaultBG":"url('./assets/images/webp/FaultBG.png')",
-        "TargetBG":"url('./assets/images/webp/GroupTargetBG.png')",
-        "FindoutBG":"url('./assets/images/webp/FindoutBG.png')",
-        "FooterBG":"url('./assets/images/webp/FooterBG.png')",
-        "StrategyBG":"url('./assets/images/webp/StrategyBG.png')"
+        "HeroBG":"url('./assets/images/webp/HeroBG.webp')",
+        "FaultBG":"url('./assets/images/webp/FaultBG.webp')",
+        "TargetBG":"url('./assets/images/webp/GroupTargetBG.webp')",
+        "FindoutBG":"url('./assets/images/webp/FindoutBG.webp')",
+        "FooterBG":"url('./assets/images/webp/FooterBG.webp')",
+        "StrategyBG":"url('./assets/images/webp/StrategyBG.webp')"
       },
       fontFamily:{
         'Helvetica':'Helvetica',

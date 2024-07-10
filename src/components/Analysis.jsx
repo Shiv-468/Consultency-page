@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import MJH4 from '../assets/images/svg/MJH4.svg'
 import Chatting from '../assets/images/svg/chatting.svg'
-import AnalysisEllipse from '../assets/images/webp/AnalysisEllipse.png'
+import AnalysisEllipse from '../assets/images/webp/AnalysisEllipse.webp'
 import { NextArrow, PrevArrow } from '../common/Icon';
 const Analysis = () => {
   var settings = {

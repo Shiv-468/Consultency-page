@@ -1,7 +1,7 @@
 import React from 'react'
-import MenWithBeard from '../assets/images/webp/MenWithBeard.png'
+import MenWithBeard from '../assets/images/webp/MenWithBeard.webp'
 import BtnArrow from '../assets/images/svg/BtnArrow.svg'
-import AboutEllipse from '../assets/images/webp/AboutEllipse.png'
+import AboutEllipse from '../assets/images/webp/AboutEllipse.webp'
 import MJH5 from '../assets/images/svg/MJH5.svg'
 import MJH6 from '../assets/images/svg/MJH6.svg'
 const About = () => {

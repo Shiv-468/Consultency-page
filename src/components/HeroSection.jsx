@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import MJH1 from '../assets/images/svg/MJH1.svg'
 import Chatting from '../assets/images/svg/chatting.svg'
 import PhoneCall from '../assets/images/svg/PhoneCall.svg'
-import HeroEllipse from '../assets/images/webp/HeroEllipse.png'
+import HeroEllipse from '../assets/images/webp/HeroEllipse.webp'
 import { Sling as Hamburger } from 'hamburger-react'
 const HeroSection = () => {
   const [data , setdata]=useState(false);

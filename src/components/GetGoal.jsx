@@ -1,9 +1,9 @@
 import React from 'react'
-import Flower1 from '../assets/images/webp/Flower1.png'
+import Flower1 from '../assets/images/webp/Flower1.webp'
 import Chatting from '../assets/images/svg/chatting.svg'
 import MJH3 from '../assets/images/svg/MJH3.svg'
-import FlowerEllipseL from '../assets/images/webp/FlowerEllipseL.png'
-import FlowerEllipseR from '../assets/images/webp/FlowerEllipseR.png'
+import FlowerEllipseL from '../assets/images/webp/FlowerEllipseL.webp'
+import FlowerEllipseR from '../assets/images/webp/FlowerEllipseR.webp'
 import MJH2 from '../assets/images/svg/MJH2.svg'
 const GetGoal = () => {
   return (
