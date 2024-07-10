@@ -37,8 +37,8 @@ const HeroSection = () => {
         <nav>
           <div className=" flex items-center justify-end pt-6">
             <ul className={`${data ? "right-0":"right-[-100%]"} menuicon flex items-center gap-10 z-50 max-md:bg-[#003E92] max-md:fixed max-md:h-full max-md:w-full max-md:top-0 max-md:flex-col max-md:justify-center max-md:duration-300`}>
-              <li><a href="#Benifits" className=' text-base text-white leading-[20.6px] font-Helvetica font-normal md:hover:text-black duration-300 ease-linear' onClick={handleLinkClick}>Benifits</a></li>
-              <li><a href="#Testimonials" className=' text-base text-white leading-[20.6px] font-Helvetica font-normal md:hover:text-black duration-300 ease-linear' onClick={handleLinkClick}>Testimonials</a></li>
+              <li><a href="#Benifits" className=' text-base lg:text-white leading-[20.6px] font-Helvetica font-normal md:hover:text-black duration-300 ease-linear' onClick={handleLinkClick}>Benifits</a></li>
+              <li><a href="#Testimonials" className=' text-base lg:text-white leading-[20.6px] font-Helvetica font-normal md:hover:text-black duration-300 ease-linear' onClick={handleLinkClick}>Testimonials</a></li>
               <li><button className=' text-nowrap flex items-center justify-center max-w-[235px] px-[28.2px] text-white w-full min-h-[56px] bg-gradient-to-br from-[#0C5FD1] to-[#8703C5]'>Book consultation now</button></li>
             </ul>
               <div onClick={toggleMenu} className=" md:hidden z-50">

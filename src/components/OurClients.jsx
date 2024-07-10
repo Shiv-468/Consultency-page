@@ -7,7 +7,7 @@ const OurClients = () => {
   return (
    <section> 
     <div className=" max-w-[1164px] px-3 pb-14 sm:pb-[100px] md:pb-[200px] mx-auto relative">
-      <img src={Semicollen} alt="Semicollen" className=' absolute max-w-[100px] right-[5%] top-[15%] 2xl:left-[86%]' />
+      <img src={Semicollen} alt="Semicollen" className=' absolute max-w-[100px] right-[5%] top-[15%] 2xl:left-[86%] z-0 hidden lg:block' />
       <div className=" absolute bottom-4 hidden md:block">
       <img src={MJH7} alt="MJH7" className=' relative' />
       <p className=' absolute top-[-16%] left-[-70%] rotate-[270deg] font-Poppins font-[300] text-[20px] leading-[34px]'>MJH</p>
