@@ -53,7 +53,9 @@ const HeroSection = () => {
                 <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text">Book a non-binding initial consultation now</span>
               </span>
             </button>
+            <a href="tel:+4733378901">
             <img src={PhoneCall} alt="PhoneCall" />
+            </a>
        </div>
           </div>
           <div className=" w-full md:w-[50%] px-3 md:justify-end flex flex-col pt-6 md:h-full" data-aos="fade-left">
