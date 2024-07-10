@@ -45,7 +45,7 @@ const Analysis = () => {
        </div>
         </div>
         <div className=" flex flex-wrap -mx-3">
-          <div className="w-full md:w-[50%] px-3 flex flex-col items-center md:items-start pb-6 md:pb-0">
+          <div className="w-full md:w-[50%] px-3 flex flex-col items-center md:items-start pb-6 md:pb-0"  data-aos="fade-right">
             <h4 className='text-[24px] sm:text-[29.3px] leading-[37.8px] font-Helvetica font-normal pt-9'>THE FOUR PHASES OF</h4>
             <h2 className='text-[33px] leading-[39px] sm:text-[52px] sm:leading-[62.4px] font-Helvetica font-normal lg:max-w-[327px] text-center md:text-start'>SEPARATION <span className='text-[#F77B0B]'>MINDSET</span></h2>
             <p className=' text-base leading-[25.6px] font-Poppins font-normal pt-5 max-w-[484px] '>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
@@ -56,7 +56,7 @@ const Analysis = () => {
               </span>
             </button>
           </div>
-          <div className=" w-full md:w-[50%] px-3">
+          <div className=" w-full md:w-[50%] px-3" data-aos="fade-left">
 
             <Slider {...settings}>
               <div className=' max-w-[608px] mx-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>

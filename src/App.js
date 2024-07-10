@@ -1,4 +1,7 @@
 import './App.css';
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import About from './components/About';
 import Analysis from './components/Analysis';
 import Fault from './components/Fault';
@@ -11,8 +14,15 @@ import Strategy from './components/Strategy';
 import TargetGroup from './components/TargetGroup';
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once:true,
+      }
+    );
+  }, [])
   return (
-    <>
+    <div className=' overflow-hidden'>
      <HeroSection/>
      <Fault/>
      <GetGoal/>
@@ -23,7 +33,7 @@ function App() {
      <OurClients/>
      <Strategy/>
      <Footer/>
-    </>
+    </div>
   );
 }
 

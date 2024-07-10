@@ -17,7 +17,7 @@ const OurClients = () => {
        </div>
       </div>
         <h2 className='text-[41px] leading-[44px] sm:text-[52px] sm:leading-[66.9px] font-Helvetica uppercase font-normal text-center'>What our <span className=' text-[#F77B0B]'>clients</span> say</h2>
-        <div className=" mt-6 -mx-3">
+        <div className=" mt-6 -mx-3" data-aos="zoom-in">
         <SwipeSlide/>
         </div>
       
