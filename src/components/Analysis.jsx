@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import MJH4 from '../assets/images/svg/MJH4.svg'
 import Chatting from '../assets/images/svg/chatting.svg'
 import AnalysisEllipse from '../assets/images/webp/AnalysisEllipse.webp'
+import SliderEllipse from '../assets/images/webp/SliderEllipse.webp'
 import { NextArrow, PrevArrow } from '../common/Icon';
 const Analysis = () => {
   var settings = {
@@ -45,7 +46,7 @@ const Analysis = () => {
        </div>
         </div>
         <div className=" flex flex-wrap -mx-3">
-          <div className="w-full md:w-[50%] px-3 flex flex-col items-center md:items-start pb-6 md:pb-0"  data-aos="fade-right">
+          <div className="w-full md:w-[41.66%] ps-3 md:ps-[6px] flex flex-col items-center md:items-start pb-6 md:pb-0"  data-aos="fade-right">
             <h4 className='text-[24px] sm:text-[29.3px] leading-[37.8px] font-Helvetica font-normal pt-9'>THE FOUR PHASES OF</h4>
             <h2 className='text-[33px] leading-[39px] sm:text-[52px] sm:leading-[62.4px] font-Helvetica font-normal lg:max-w-[327px] text-center md:text-start'>SEPARATION <span className='text-[#F77B0B]'>MINDSET</span></h2>
             <p className=' text-base leading-[25.6px] font-Poppins font-normal pt-5 max-w-[484px] '>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
@@ -56,25 +57,29 @@ const Analysis = () => {
               </span>
             </button>
           </div>
-          <div className=" w-full md:w-[50%] px-3" data-aos="fade-left">
+          <div className=" w-full md:w-[58.33%] px-3 flex flex-col justify-end" data-aos="fade-left">
 
             <Slider {...settings}>
-              <div className=' max-w-[608px] mx-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <div className=' max-w-[608px] relative z-20 mx-auto md:mr-0 md:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <img src={SliderEllipse} alt=""  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>1st phase</h5>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The not-wanting-to-be-true"</h5>
                 <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>This phase is characterized by denial and ignoring the final separation.</p>
               </div>
-              <div className=' max-w-[608px] mx-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <div className=' max-w-[608px] relative z-20 mx-auto md:mr-0 md:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <img src={SliderEllipse} alt=""  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>2nd phase</h5>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The emotional chaos"</h5>
                 <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>The second phase is characterized by strong mode swings and disorientation</p>
               </div>
-              <div className=' max-w-[608px] mx-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <div className=' max-w-[608px] relative z-20 mx-auto md:mr-0 md:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <img src={SliderEllipse} alt=""  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>3rd phase</h5>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The reconstruction"</h5>
                 <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>apart from occasional setbacks, you now begin to actively take control of your life again.</p>
               </div>
-              <div className=' max-w-[608px] mx-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <div className=' max-w-[608px] relative z-20 mx-auto md:mr-0 md:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
+              <img src={SliderEllipse} alt=""  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>4th phase</h5>
                 <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The new concept of life"</h5>
                 <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>through the breakup you have learned to find your strengths. you develop a new concept of love and partnership. you have now gained the freedom to be yourself and live your life.</p>

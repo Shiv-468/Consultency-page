@@ -24,39 +24,39 @@ const Fault = () => {
                 <p className=' text-center pt-4 md:pt-14 pb-6 sm:pb-[34.8px] font-Helvetica text-[20px] leading-[28px] font-normal'>How would you know when you are busy with completely different things at the moment:</p>
             </div>
             <div className=" bg-FaultBG min-h-[360px] bg-no-repeat bg-cover bg-center  ">
-              <div className=" max-w-[1210px] px-3 mx-auto">
+              <div className=" max-w-[1044px] px-3 xl:px-0 mx-auto">
              <div className=" flex flex-col gap-[29.15px] flex-wrap">
-           <div className=" flex justify-end  lg:pe-[43px]">
+           <div className=" flex justify-end  xl:pe-[43px]">
            <div className=" max-w-[750px] w-full flex flex-wrap min-h-[162px]" data-aos="flip-up">
                     {/*======= fault cards ===== */}
-                    <div className=" w-[50%] min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
-                        <p className=' text-white text-[14px] sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
+                    <div className=" w-[50%] md:min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
                     </div>
-                    <div className=" w-[50%] min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
-                        <p className=' text-white text-[14px] sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You keep asking yourself what you did wrong.
+                    <div className=" w-[50%] md:min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You keep asking yourself what you did wrong.
                         </p>
                     </div>
-                    <div className=" w-[50%] min-h-[162px] px-3 mt-[29.1px] sm:mt-0 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
-                        <p className=' text-white text-[14px] sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>The feeling of helplessness is your constant companion.</p>
+                    <div className=" w-[50%] md:min-h-[162px] px-3 mt-[29.1px] sm:mt-0 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>The feeling of helplessness is your constant companion.</p>
                     </div>
                     <div className=" px-3 bg-[#003E9233] mt-[29.1px] sm:mt-0 sm:hidden backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[45px] w-[50%] sm:w-[33.33%]">
-                        <p className=' text-white text-[14px] sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
+                        <p className=' text-white sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
                     </div>
                 </div>
            </div>
-                <div className=" max-w-[750px] w-full flex flex-wrap min-h-[169px]" data-aos="flip-down">
+                <div className=" max-w-[750px] w-full flex flex-wrap md:min-h-[169px]" data-aos="flip-down">
                     {/*======= fault cards ===== */}
                 <div className=" hidden sm:flex sm:w-[33.33%]">
                 <div className=" px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[45px] w-[50%] sm:w-full">
-                        <p className=' text-white text-[14px] sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
                     </div>
                 </div>
                     <div className=" px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[45px] w-[50%] sm:w-[33.33%]">
-                        <p className=' text-white text-[14px] sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You keep asking yourself what you did wrong.
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You keep asking yourself what you did wrong.
                         </p>
                     </div>
                     <div className=" px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[45px] w-[50%] sm:w-[33.33%]">
-                        <p className=' text-white text-[14px] sm:text-base sm:leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>The feeling of helplessness is your constant companion.</p>
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>The feeling of helplessness is your constant companion.</p>
                     </div>
                 </div>
              </div>

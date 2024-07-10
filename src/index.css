@@ -37,11 +37,11 @@ font-size: 10px !important;
 }
 
 .custom-next-arrow {
-  left: -32px; 
+  left:0; 
 }
 
 .custom-prev-arrow {
-  left: 22px;
+  left: 70px;
 }
 html,body{
   scroll-behavior: smooth;
