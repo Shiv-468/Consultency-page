@@ -32,7 +32,7 @@ const Fault = () => {
                     <div className=" w-[50%] md:min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
                         <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
                     </div>
-                    <div className=" w-[50%] md:min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
+                    <div className=" w-[50%] md:min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
                         <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You keep asking yourself what you did wrong.
                         </p>
                     </div>
