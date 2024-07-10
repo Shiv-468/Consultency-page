@@ -26,7 +26,7 @@ const HeroSection = () => {
     <section className=' max-xl:min-h-screen md:bg-HeroBG bg-white flex bg-cover bg-no-repeat bg-center xl:!min-h-[810px] 2xl:!min-h-[90vh] relative'>
       <img src={HeroEllipse} alt="HeroEllipse" className=' absolute top-0  hidden sm:block' />
       <div className=" max-w-[1164px] px-3 mx-auto w-full flex relative flex-col">
-       <div className=" absolute bottom-[-20%] xl:bottom-[-22%] hidden md:block" data-aos="fade-down-right">
+       <div className=" absolute bottom-[-14%] xl:bottom-[-18%] hidden md:block" data-aos="fade-down-right">
        <img src={MJH1} alt="MJH1" className=' relative' />
        <p className=' absolute top-[-18%] left-[-70%] rotate-[270deg] font-Poppins font-[300] text-[20px] leading-[34px]'>MJH</p>
        <div className=" absolute flex items-end bottom-[-4%] left-[100%]">

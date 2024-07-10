@@ -27,7 +27,7 @@ const About = () => {
             <div className=" w-full md:w-[50%] px-3 flex justify-center" data-aos="fade-right">
                 <img src={MenWithBeard} alt="MenWithBeard" className=' w-full max-w-[560px]' />
             </div>
-            <div className=" w-full md:w-[50%] px-3 flex justify-center md:justify-start items-end flex-col  pt-6 md:pt-0" data-aos="fade-left">
+            <div className=" w-full md:w-[50%] px-3 flex justify-center md:justify-start items-center md:items-end flex-col  pt-6 md:pt-0" data-aos="fade-left">
                <div className=" flex flex-col items-center max-w-[500px] md:items-start">
                <h2 className=' text-[43px] leading-[44.9px] lg:text-[52px] lg:leading-[66.9px] font-Helvetica font-normal text-center md:text-start'>LAWYER <span className=' text-[#F77B0B]'>&</span> DIVORCE COACH</h2>
                 <p className=' text-[26px] sm:text-[32.9px] leading-[32px] sm:leading-[37.6px] font-Helvetica font-normal uppercase text-center md:text-start '><span className=' text-[#F77B0B]'>M</span>arc <span className=' text-[#F77B0B]'>J</span>oachim <span className=' text-[#F77B0B]'>H</span>ubrich</p>

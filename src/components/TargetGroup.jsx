@@ -4,8 +4,16 @@ const TargetGroup = () => {
   return (
    <section className=' bg-[#F2F8FF]' id='Testimonials'>
     <div className=" max-w-[1164px] px-3 mx-auto pt-12">
-<div className=" md:pb-12 pb-6 mb-1">
+<div className=" w-full md:pb-12 pb-6 mb-1 flex -mx-3 flex-wrap items-center md:justify-end">
+    <div className=" w-full md:w-[58.33%] px-3 flex md:justify-end justify-center items-center">
     <h2 className='text-[45px] leading-[55px] md:text-[52px] md:leading-[66.9px] font-Helvetica font-normal uppercase text-center md:text-start'><span className='text-[#F77B0B]'>TARGET</span> group</h2>
+    </div>
+    <div className=" w-full md:w-[41.66%] px-3 flex md:justify-end justify-center mt-4 md:mt-0">
+    <div className=" border-l-[2px] border-[#9800B0] max-w-[362px] min-h-[67px]" data-aos="fade-left">
+            <p className=' text-base leading-[25.6px] font-Poppins font-normal max-w-[426px] ps-3'>The coaching is aimed at married women who have already separated or are thinking of separating.</p>
+        </div>
+    </div>
+  
 </div>
     </div>
 <div className=" bg-TargetBG min-h-[623px] bg-cover bg-center bg-no-repeat ">

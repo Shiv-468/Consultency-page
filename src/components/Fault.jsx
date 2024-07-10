@@ -24,9 +24,9 @@ const Fault = () => {
                 <p className=' text-center pt-4 md:pt-14 pb-6 sm:pb-[34.8px] font-Helvetica text-[20px] leading-[28px] font-normal'>How would you know when you are busy with completely different things at the moment:</p>
             </div>
             <div className=" bg-FaultBG min-h-[360px] bg-no-repeat bg-cover bg-center  ">
-              <div className=" max-w-[1164px] px-3 mx-auto">
-             <div className=" flex flex-col gap-[29.15px] flex-wrap lg:pe-[91px]">
-           <div className=" flex justify-end">
+              <div className=" max-w-[1210px] px-3 mx-auto">
+             <div className=" flex flex-col gap-[29.15px] flex-wrap">
+           <div className=" flex justify-end  lg:pe-[43px]">
            <div className=" max-w-[750px] w-full flex flex-wrap min-h-[162px]" data-aos="flip-up">
                     {/*======= fault cards ===== */}
                     <div className=" w-[50%] min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
