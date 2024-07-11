@@ -51,8 +51,8 @@ const HeroSection = () => {
           <div className=" w-full md:w-[50%] px-3 flex flex-col justify-end md:justify-center " data-aos="fade-right">
             <p className=' text-[18.8px] leading-[24.2px] text-[#F77B0B] font-Helvetica capitalize '>Marc joachim hubrich</p>
             <h1 className='text-[58px] leading-[57.2px] sm:text-[60px] sm:leading-[77.2px] max-w-[517px] font-normal font-Helvetica uppercase pb-1'>Now I let you go!</h1>
-            <p className=' font-Poppins text-base leading-[25.6px] font-normal max-w-[517px] opacity-70'>For women who do not want to be completely dragged down by a SEPARATION.</p>
-            <p className=' font-Poppins text-base leading-[25.6px] font-normal max-w-[517px] opacity-70'>How to let go of your EX so you can leave him behind without having to run to a therapist right away.</p>
+            <p className=' font-Poppins text-base leading-[25.6px] font-normal max-w-[517px] sm:pe-5 xl:pe-0 opacity-70'>For women who do not want to be completely dragged down by a SEPARATION.</p>
+            <p className=' font-Poppins text-base leading-[25.6px] font-normal max-w-[517px] sm:pe-5 xl:pe-0 opacity-70'>How to let go of your EX so you can leave him behind without having to run to a therapist right away.</p>
        <div className=" flex items-center gap-2 xl:gap-4 pt-[32px]">
        <button class="bg-gradient-to-tr from-blue-500 to-purple-500 max-w-[452px] hover:shadow-BtnShadow duration-300 ease-in-out lg:max-w-[452px] text-white font-medium md:max-w-[280px] rounded-[63px] p-[1.7px]">
               <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-[16px] xl:!pe-[48px] w-full bg-white text-black rounded-[63px]  font-Inter font-medium text-[16px] leading-[24px] ">
