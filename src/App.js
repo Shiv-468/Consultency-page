@@ -1,5 +1,5 @@
 import './App.css';
-import React,{useEffect} from "react";
+import React,{useEffect, useState} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from './components/About';
@@ -20,9 +20,25 @@ function App() {
         once:true,
       }
     );
-  }, [])
+  }, []);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const bodyStyle = {
+    width: windowWidth > 1920 ? '1920px' : '100%',
+    margin: windowWidth > 1920 ? '0 auto' : '0',
+  };
   return (
-    <div className=' overflow-hidden'>
+    <div className=' overflow-hidden' style={bodyStyle}>
      <HeroSection/>
      <Fault/>
      <GetGoal/>

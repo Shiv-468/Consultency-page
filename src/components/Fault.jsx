@@ -66,9 +66,9 @@ const Fault = () => {
                 <p className=' text-center pt-10 sm:pt-12 pb-5 font-Poppins text-base leading-[25.6px] font-normal'>You are not alone! Numerous women before you stood exactly at this point, where you are now.</p>
                 <div className=" flex items-center justify-center">
                 <button class="bg-gradient-to-tr from-blue-500 to-purple-500 hover:shadow-BtnShadow duration-300 ease-in-out font-medium max-w-[452px] rounded-[63px] p-[1.7px]" data-aos="zoom-in">
-              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-[48px] w-full bg-white text-black rounded-[63px]  font-inter font-medium text-[16px] leading-[24px] ">
+              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-4 md:pe-[48px] w-full bg-white text-black rounded-[63px]  font-Inter font-medium text-[16px] leading-[24px] ">
                 <img src={Chatting} alt="Chatting" />
-                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text">Book a non-binding initial consultation now</span>
+                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] text-start inline-block text-transparent bg-clip-text">Book a non-binding initial consultation now</span>
               </span>
             </button>
                 </div>

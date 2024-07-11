@@ -34,7 +34,7 @@ const About = () => {
                 <p className=' text-[20px] leading-7 pt-2 md:pt-[30px] font-Helvetica font-normal capitalize text-center !md:text-start'>About the mindset agency coach</p>
                 <p className=' text-base leading-[25.6px] font-Poppins font-normal opacity-70 pb-4 sm:pb-[35px] text-center md:text-start'>Marc J. Hubrich is the founder of the mindset agency specializing in consulting services.</p>
                 <button class="bg-gradient-to-tr from-[#0C5FD1] to-[#8703C5] hover:shadow-BtnShadow duration-300 ease-in-out rounded-[63px] text-white font-medium max-w-[452px]rounded-[63px] p-[1.7px]">
-              <span class="flex gap-1 items-center min-h-[56px] py-[5px] px-[32.5px] w-full bg-white text-black rounded-[63px]  font-inter font-medium text-[16px] leading-[24px] ">
+              <span class="flex gap-1 items-center min-h-[56px] py-[5px] px-[32.5px] w-full bg-white text-black rounded-[63px] font-Inter font-medium text-[16px] leading-[24px] ">
                 <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text">Learn more about the agency</span>
                 <img src={BtnArrow} alt="BtnArrow" />
               </span>
