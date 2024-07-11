@@ -21,15 +21,15 @@ const TargetGroup = () => {
     <div className=" flex flex-wrap -mx-3">
         <div className=" w-full md:w-[50%] px-3 pt-12 md:pt-[108.5px] flex flex-col items-center md:items-start"  data-aos="fade-right">
             <div className=" max-w-[382px] border border-[#FFFFFF26] backdrop-blur-[4px] min-h-[182px] flex items-center justify-center bg-[#FFFFFF1F] px-10">
-                <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal'>You have separated and have the feeling that you can never be happy again and that you will be alone forever.</p>
+                <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal capitalize'>You have separated and have the feeling that you can never be happy again and that you will be alone forever.</p>
             </div>
             <div className=" max-w-[382px] border backdrop-blur-[4px] border-[#FFFFFF26] min-h-[182px] flex items-center justify-center bg-[#FFFFFF1F] px-10 mt-8">
-                <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal'>How are you supposed to be able to let go of someone who is so entangled with your life? It's impossible, isn't it?</p>
+                <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal capitalize'>How are you supposed to be able to let go of someone who is so entangled with your life? It's impossible, isn't it?</p>
             </div>
         </div>
         <div className=" w-full md:w-[50%] px-3 md:relative flex items-center justify-center md:justify-end pb-12"  data-aos="fade-up">
         <div className=" max-w-[382px]  md:max-w-[338px] min-h-[182px] md:min-h-[272px] bottom-[-30%] backdrop-blur-[5px] flex items-center justify-center bg-[#003E92B2] w-full px-10 md:px-0  mt-8 md:absolute">
-                <p className=' text-white text-base leading-[25.6px] max-w-[270px] font-Poppins font-normal'>To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
+                <p className=' text-white text-base leading-[25.6px] max-w-[270px] font-Poppins font-normal capitalize'>To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
             </div>
         </div>
     </div>

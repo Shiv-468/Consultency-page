@@ -65,27 +65,27 @@ const Analysis = () => {
             <Slider {...settings}>
               <div className=' max-w-[608px] relative z-20 mx-auto lg:mr-0 lg:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
               <img src={SliderEllipse} alt="SliderEllipse"  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>1st phase</h5>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The not-wanting-to-be-true"</h5>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>1st phase</h5>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>"The not-wanting-to-be-true"</h5>
                 <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>This phase is characterized by denial and ignoring the final separation.</p>
               </div>
               <div className=' max-w-[608px] relative z-20 mx-auto lg:mr-0 lg:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
               <img src={SliderEllipse} alt="SliderEllipse"  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>2nd phase</h5>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The emotional chaos"</h5>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>2nd phase</h5>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>"The emotional chaos"</h5>
                 <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>The second phase is characterized by strong mode swings and disorientation</p>
               </div>
               <div className=' max-w-[608px] relative z-20 mx-auto lg:mr-0 lg:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
               <img src={SliderEllipse} alt="SliderEllipse"  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>3rd phase</h5>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The reconstruction"</h5>
-                <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>apart from occasional setbacks, you now begin to actively take control of your life again.</p>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>3rd phase</h5>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>"The reconstruction"</h5>
+                <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>Apart from occasional setbacks, you now begin to actively take control of your life again.</p>
               </div>
               <div className=' max-w-[608px] relative z-20 mx-auto lg:mr-0 lg:!ml-auto py-12 px-4 min-h-[350px] sm:min-h-[448px] bg-[#003E92] !flex flex-col items-center justify-center'>
               <img src={SliderEllipse} alt="SliderEllipse"  className=' absolute z-0 bg-transparent right-0 bottom-0'/>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>4th phase</h5>
-                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium'>"The new concept of life"</h5>
-                <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>through the breakup you have learned to find your strengths. you develop a new concept of love and partnership. you have now gained the freedom to be yourself and live your life.</p>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>4th phase</h5>
+                <h5 className=' text-white text-center text-[20px] leading-[32px] font-Poppins font-medium capitalize'>"The new concept of life"</h5>
+                <p className=' font-Poppins text-base leading-[25.6px] font-normal text-white max-w-[363px] text-center pt-4'>Through the breakup you have learned to find your strengths. you develop a new concept of love and partnership. you have now gained the freedom to be yourself and live your life.</p>
               </div>
             </Slider>
           </div>
