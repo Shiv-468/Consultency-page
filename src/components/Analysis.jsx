@@ -35,7 +35,7 @@ const Analysis = () => {
   };
   return (
     <section className=' relative overflow-hidden'>
-      <img src={AnalysisEllipse} alt="AnalysisEllipse" className=' absolute top-[-52.2%]' />
+      <img src={AnalysisEllipse} alt="AnalysisEllipse" className=' absolute top-[-40%] hidden md:block lg:top-[-52.2%]' />
       <div className=" max-w-[1164px] px-3 mx-auto pt-12 sm:pt-[80px] md:pt-[300px] pb-[80px] md:pb-[186px] relative">
         <div className=" absolute right-5 xl:right-0 top-[8.5%] lg:top-14 hidden md:block">
             <img src={MJH4} alt="MJH4" className=' relative' />
@@ -46,7 +46,7 @@ const Analysis = () => {
        </div>
         </div>
         <div className=" flex flex-wrap -mx-3">
-          <div className="w-full lg:w-[50%] xl:w-[41.66%] px-3 md:pe-0 md:ps-[6px] flex flex-col items-center lg:items-start pb-6 lg:pb-0"  data-aos="fade-right">
+          <div className="w-full lg:w-[50%] xl:w-[41.66%] px-3 md:pe-0 xl:ps-[6px] flex flex-col items-center lg:items-start pb-6 lg:pb-0"  data-aos="fade-right">
             <h4 className='text-[24px] sm:text-[29.3px] leading-[37.8px] font-Helvetica font-normal pt-9'>THE FOUR PHASES OF</h4>
             <h2 className='text-[33px] leading-[39px] sm:text-[52px] sm:leading-[62.4px] font-Helvetica font-normal lg:max-w-[327px] text-center md:text-start'>SEPARATION <span className='text-[#F77B0B]'>MINDSET</span></h2>
             <p className=' text-base leading-[25.6px] font-Poppins font-normal pt-5 max-w-[484px] '>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
