@@ -2,11 +2,13 @@ import React from 'react'
 import { Email, Facebook, Instagram, Twitter } from '../common/Icon'
 
 const Footer = () => {
+  const d =  new Date();
+    const Year =  d.getFullYear();
   return (
     <section className=' bg-FooterBG bg-no-repeat bg-cover bg-center md:min-h-[343px]'>
         <div className=" max-w-[1164px] px-3 md:py-[94px] py-[64px] mx-auto flex flex-col md:flex-row max-md:items-center justify-center md:justify-end">
             <div className=" flex flex-col items-center justify-end w-full">
-                <h4 className=' text-base leading-[25.6px] font-normal text-white max-w-[264px] text-center font-Poppins'>(c)2022 MARC JOACHIM HUBRICH
+                <h4 className=' text-base leading-[25.6px] font-normal text-white max-w-[264px] text-center font-Poppins'>(c){Year} MARC JOACHIM HUBRICH
                 All Rights Reserved</h4>
             </div>
             <ul className=' flex md:flex-col gap-3 mt-4 md:mt-0'>
