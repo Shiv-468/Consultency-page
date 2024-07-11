@@ -8,7 +8,7 @@ const About = () => {
   return (
    <section className='relative' id='Benifits'>
         <img src={AboutEllipse} alt="AboutEllipse" className=' absolute 2xl:w-full 2xl:max-w-[738px] right-0 2xl:left-[48.5%] bottom-[17%] hidden lg:block' />
-    <div className=" pt-[80px] md:pt-[239px] pb-12 sm:pb-[80px] md:pb-[202px] px-3 max-w-[1164px] mx-auto relative">
+    <div className=" pt-[80px] md:pt-[200px] lg:pt-[239px] pb-12 sm:pb-[80px] md:pb-[160px] lg:pb-[202px] px-3 max-w-[1164px] mx-auto relative">
         <div className=" absolute top-3 hidden md:block">
         <img src={MJH5} alt="MJH5" className=' relative' />
         <div className=" absolute flex items-end bottom-[-2%] left-[100%]">
@@ -16,7 +16,7 @@ const About = () => {
        <p className=' font-normal font-Helvetica text-[24px] leading-[30.9px] uppercase'>about</p>
        </div>
         </div>
-        <div className=" absolute right-5 xl:right-0 bottom-[-4%] hidden md:block">
+        <div className=" absolute right-5 xl:right-0 md:bottom-[-15%] lg:bottom-[-4%]  hidden md:block">
             <img src={MJH6} alt="MJH6" className=' relative' />
       <p className=' absolute top-[-20%] left-[20%] rotate-[270deg] font-Poppins font-[300] text-[20px] leading-[34px]'>MJH</p>
             <div className=" absolute flex items-end bottom-[-4%] right-[105%]">
@@ -35,7 +35,7 @@ const About = () => {
                 <p className=' text-base leading-[25.6px] font-Poppins font-normal opacity-70 pb-4 sm:pb-[35px] text-center md:text-start'>Marc J. Hubrich is the founder of the mindset agency specializing in consulting services.</p>
                 <button class="bg-gradient-to-tr from-[#0C5FD1] to-[#8703C5] hover:shadow-BtnShadow duration-300 ease-in-out rounded-[63px] text-white font-medium max-w-[452px]rounded-[63px] p-[1.7px]">
               <span class="flex gap-1 items-center min-h-[56px] py-[5px] px-[32.5px] w-full bg-white text-black rounded-[63px] font-Inter font-medium text-[16px] leading-[24px] ">
-                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text">Learn more about the agency</span>
+                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text capitalize">Learn more about the agency</span>
                 <img src={BtnArrow} alt="BtnArrow" />
               </span>
             </button>

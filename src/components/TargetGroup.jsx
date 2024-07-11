@@ -27,7 +27,7 @@ const TargetGroup = () => {
                 <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal'>How are you supposed to be able to let go of someone who is so entangled with your life? It's impossible, isn't it?</p>
             </div>
         </div>
-        <div className=" w-full md:w-[50%] px-3 md:relative flex items-center justify-center pb-12"  data-aos="fade-up">
+        <div className=" w-full md:w-[50%] px-3 md:relative flex items-center justify-end pb-12"  data-aos="fade-up">
         <div className=" max-w-[382px]  md:max-w-[338px] min-h-[182px] md:min-h-[272px] bottom-[-30%] backdrop-blur-[5px] flex items-center justify-center bg-[#003E92B2] px-10 mt-8 md:absolute">
                 <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal'>To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
             </div>

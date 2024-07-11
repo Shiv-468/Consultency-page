@@ -9,8 +9,8 @@ const Fault = () => {
                <div className=" flex items-start flex-wrap -mx-3">
          <div className=" w-full sm:w-[58.33%] px-3 flex justify-center sm:justify-end"  data-aos="fade-right">
          <div className=" flex flex-col">
-            <h2 className=' font-Helvetica text-[46px] sm:text-[60px] leading-[49px] sm:leading-[77.2px]'>IT'S NOT</h2>
-            <h2 className=' font-Helvetica text-[46px] sm:text-[60px] leading-[49px] sm:leading-[77.2px] -mt-2 md:ps-12 lg:ps-16 ms-2'><span className=' text-[#F77B0B]'>YOUR</span> FAULT!</h2>
+            <h2 className=' font-Helvetica text-[46px] md:text-[60px] leading-[49px] md:leading-[77.2px] text-start'>IT'S NOT</h2>
+            <h2 className=' font-Helvetica text-[46px] md:text-[60px] leading-[49px] md:leading-[77.2px] -mt-2 ps-6 md:ps-12 lg:ps-16 ms-2'><span className=' text-[#F77B0B]'>YOUR</span> FAULT!</h2>
             </div>
          </div>
           <div className=" w-full sm:w-[41.66%] px-3" data-aos="fade-left">
@@ -21,7 +21,7 @@ const Fault = () => {
           </div>
                </div>
 
-                <p className=' text-center pt-4 md:pt-14 pb-6 sm:pb-[34.8px] font-Helvetica text-[20px] leading-[28px] font-normal'>How would you know when you are busy with completely different things at the moment:</p>
+                <p className=' text-center pt-4 md:pt-14 pb-6 sm:pb-[34.8px] font-Helvetica text-[20px] leading-[28px] font-semibold capitalize'>How would you know when you are busy with completely different things at the moment:</p>
             </div>
             <div className=" bg-FaultBG min-h-[360px] bg-no-repeat bg-cover bg-center  ">
               <div className=" max-w-[1044px] px-3 xl:px-0 mx-auto">
@@ -33,7 +33,7 @@ const Fault = () => {
                         <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
                     </div>
                     <div className=" w-[50%] md:min-h-[162px] px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
-                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You keep asking yourself what you did wrong.
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[197px] w-full'>You keep asking yourself what you did wrong.
                         </p>
                     </div>
                     <div className=" w-[50%] md:min-h-[162px] px-3 mt-[29.1px] sm:mt-0 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[43px] sm:w-[33.33%]">
@@ -48,15 +48,14 @@ const Fault = () => {
                     {/*======= fault cards ===== */}
                 <div className=" hidden sm:flex sm:w-[33.33%]">
                 <div className=" px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[45px] w-[50%] sm:w-full">
-                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>Your self-esteem is in the basement.</p>
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>You spend the nights alone and lonely.</p>
                     </div>
                 </div>
                     <div className=" px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[45px] w-[50%] sm:w-[33.33%]">
-                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You keep asking yourself what you did wrong.
-                        </p>
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[196px] w-full'>You have stopped going out and spend the time crying in your room.    </p>
                     </div>
                     <div className=" px-3 bg-[#003E9233] backdrop-blur-[4px] hover:bg-[#003E92] ease-linear duration-300 flex justify-center py-[24px] sm:py-[45px] w-[50%] sm:w-[33.33%]">
-                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>The feeling of helplessness is your constant companion.</p>
+                        <p className=' text-white text-base leading-[25.6px] font-Poppins font-normal max-w-[173px] w-full'>An emotional chaos is raging inside you.</p>
                     </div>
                 </div>
              </div>
@@ -65,10 +64,10 @@ const Fault = () => {
             <div className=" max-w-[1164px] px-3 mx-auto">
                 <p className=' text-center pt-10 sm:pt-12 pb-5 font-Poppins text-base leading-[25.6px] font-normal'>You are not alone! Numerous women before you stood exactly at this point, where you are now.</p>
                 <div className=" flex items-center justify-center">
-                <button class="bg-gradient-to-tr from-blue-500 to-purple-500 hover:shadow-BtnShadow duration-300 ease-in-out font-medium max-w-[452px] rounded-[63px] p-[1.7px]" data-aos="zoom-in">
-              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-4 md:pe-[48px] w-full bg-white text-black rounded-[63px]  font-Inter font-medium text-[16px] leading-[24px] ">
+                <button class="bg-gradient-to-tr from-blue-500 to-purple-500 hover:shadow-BtnShadow duration-300 w-full ease-in-out font-medium max-w-[452px] rounded-[63px] p-[1.7px]" data-aos="zoom-in">
+              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-4  w-full bg-white text-black rounded-[63px]  font-Inter font-medium text-[16px] leading-[24px] ">
                 <img src={Chatting} alt="Chatting" />
-                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] text-start inline-block text-transparent bg-clip-text">Book a non-binding initial consultation now</span>
+                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] text-start capitalize inline-block text-transparent bg-clip-text">Book a non-binding initial consultation now</span>
               </span>
             </button>
                 </div>

@@ -40,37 +40,37 @@ const GetGoal = () => {
         <p className=' text-[20px] leading-[28px] text-center font-Helvetica font-normal pt-8 sm:pt-12 pb-7'>In a 1:1 live coaching session, we will clarify the following questions in particular:</p>
         <div className=" flex flex-wrap">
             <div className=" w-full  sm:w-[50%] xl:w-[33.33%] flex justify-center sm:justify-end" data-aos="fade-up">
-                <div className=" sm:max-w-[380px] md:min-h-[230px] py-4 sm:py-6 md:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
+                <div className=" sm:max-w-[380px] xl:min-h-[230px] py-4 sm:py-6 xl:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
                     <p className='text-center sm:text-start font-Poppins text-base leading-[25.6px] group-hover:text-[#003E92] font-normal'>Why does your EX have to disappear from your life forever?</p>
                 </div>
             </div> 
              <div className=" w-full  sm:w-[50%] xl:w-[33.33%] flex justify-center md:justify-start" data-aos="fade-up">
-                <div className=" sm:max-w-[380px] md:min-h-[230px] py-4 sm:py-6 md:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
+                <div className=" sm:max-w-[380px] xl:min-h-[230px] py-4 sm:py-6 xl:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
                     <p className='text-center sm:text-start font-Poppins text-base leading-[25.6px] font-normal group-hover:text-[#003E92]'>What should your everyday life as a single person look like now and how can you cope with the new challenges?</p>
                 </div>
             </div>
             <div className=" w-full  sm:w-[50%] xl:w-[33.33%] flex justify-center sm:justify-end" data-aos="fade-up">
-                <div className=" sm:max-w-[380px] md:min-h-[230px] py-4 sm:py-6 md:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
+                <div className=" sm:max-w-[380px] xl:min-h-[230px] py-4 sm:py-6 xl:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
                     <p className='text-center sm:text-start font-Poppins text-base leading-[25.6px] font-normal group-hover:text-[#003E92]'>How can you handle the divorce quickly and without complications, without worrying about finances or the well-being of the children?
                     </p>
                 </div>
             </div>
             <div className=" w-full  sm:w-[50%] xl:w-[33.33%] flex justify-center md:justify-start" data-aos="fade-up">
-                <div className=" sm:max-w-[380px] md:min-h-[230px] w-full py-4 sm:py-6 md:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
+                <div className=" sm:max-w-[380px] xl:min-h-[230px] w-full py-4 sm:py-6 xl:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
                     <p className='text-center sm:text-start font-Poppins text-base leading-[25.6px] font-normal group-hover:text-[#003E92]'>Who are you without your EX?</p>
                 </div>
             </div>
             <div className=" w-full  sm:w-[50%] xl:w-[33.33%] flex justify-center sm:justify-end" data-aos="fade-up">
-                <div className=" sm:max-w-[380px] md:min-h-[230px] py-4 sm:py-6 md:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
+                <div className=" sm:max-w-[380px] xl:min-h-[230px] py-4 sm:py-6 xl:py-16 px-4 sm:px-[48.5px] group hover:bg-[#F5FAFF] duration-300 ease-linear">
                     <p className='text-center sm:text-start font-Poppins text-base leading-[25.6px] font-normal group-hover:text-[#003E92]'>What new dreams and hopes do you want to live? </p>
                 </div>
             </div>
             <div className=" w-full  sm:w-[50%] xl:w-[33.33%] flex justify-center md:justify-start" data-aos="fade-up">
-                <div className=" sm:max-w-[380px] md:min-h-[230px] py-4 sm:py-6 md:py-16 px-4 sm:px-[48.5px]">
-                <button class="bg-gradient-to-tr from-blue-500 to-purple-500 hover:shadow-BtnShadow duration-300 ease-in-out font-medium rounded-[8px] p-[1.7px]">
-              <span class="flex items-center w-full bg-white text-black rounded-[8px] font-Inter font-medium text-[16px] leading-[24px] min-h-[85px] ">
+                <div className=" sm:max-w-[380px] xl:min-h-[230px] py-4 sm:py-6 xl:py-16 px-4 sm:px-[48.5px]">
+                <button class="bg-gradient-to-tr from-blue-500 to-purple-500 max-w-[292px] w-full hover:shadow-BtnShadow duration-300 ease-in-out font-medium rounded-[8px] p-[1.7px]">
+              <span class="flex items-center w-full bg-white text-black rounded-[8px] pe-6 font-Inter font-medium text-[16px] leading-[24px] min-h-[85px] ">
                 <img src={Chatting} alt="Chatting" />
-                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block  max-w-[203px] text-transparent bg-clip-text text-start">Book a non-binding initial consultation now</span>
+                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block  max-w-[203px] text-transparent bg-clip-text text-start capitalize">Book a non-binding initial consultation now</span>
               </span>
             </button>
                 </div>

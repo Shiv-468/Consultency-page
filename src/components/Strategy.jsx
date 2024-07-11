@@ -47,11 +47,11 @@ const Strategy = () => {
                     <p className=' text-base leading-[25.6px] font-Poppins font-normal sm:max-w-[173px] text-white'>How do I rebuild my self-esteem?</p>
                 </div>
             </div>
-          <div className=" flex items-center justify-center pt-6 md:pt-[58px] pb-16 md:pb-[186px]">
-          <button class="bg-gradient-to-tr from-blue-500 to-purple-500 hover:shadow-BtnShadowWhite duration-300 ease-in-out font-medium max-w-[452px] rounded-[63px] p-[1.7px]" data-aos="zoom-in">
-              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-4 sm:pe-[48px] w-full bg-white text-black rounded-[63px]  font-Inter font-medium text-[16px] leading-[24px] ">
+          <div className=" flex items-center justify-center pt-6 md:pt-[58px] pb-16 md:pb-[80px] lg:pb-[186px]">
+          <button class="bg-gradient-to-tr from-blue-500 to-purple-500 hover:shadow-BtnShadowWhite duration-300 ease-in-out font-medium w-full max-w-[452px] rounded-[63px] p-[1.7px]" data-aos="zoom-in">
+              <span class="flex gap-1 items-center py-[5px] ps-[9px] pe-4  w-full bg-white text-black rounded-[63px]  font-Inter font-medium text-[16px] leading-[24px] ">
                 <img src={Chatting} alt="Chatting" />
-                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text text-start sm:text-center">Book a non-binding initial consultation now</span>
+                <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] capitalize inline-block text-transparent bg-clip-text text-start">Book a non-binding initial consultation now</span>
               </span>
             </button>
           </div>

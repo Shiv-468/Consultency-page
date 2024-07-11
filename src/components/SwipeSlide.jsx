@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import { useMediaQuery } from 'react-responsive';
 
 const SwipeSlide = () => {
@@ -13,17 +13,20 @@ const SwipeSlide = () => {
     return (
         <>
             {!isSmallScreen ? (
-                <Swiper
-                    direction={'vertical'}
-                    pagination={{
-                        clickable: true,
-                        el: '.custom-pagination',
-                        bulletClass: 'swiper-pagination-bullet',
-                        bulletActiveClass: 'swiper-pagination-bullet-active'
-                    }}
-                    modules={[Pagination]}
-                    className="mySwiper h-[800px] md:h-[570px]"
-                >
+               <Swiper
+               direction={'vertical'}
+               loop={true}
+               pagination={{
+                   clickable: true,
+                   el: '.custom-pagination',
+                   bulletClass: 'swiper-pagination-bullet',
+                   bulletActiveClass: 'swiper-pagination-bullet-active'
+               }}
+               modules={[Pagination, Autoplay,]}
+               autoplay={{ delay: 2000 }}
+               
+               className="mySwiper h-[800px] md:h-[570px]"
+           >
                     {[...Array(3)].map((_, index) => (
                         <SwiperSlide key={index}>
                             <div className=' max-w-[820px] mx-auto px-3 mt-[60px]'>
