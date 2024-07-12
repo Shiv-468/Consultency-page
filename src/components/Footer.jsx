@@ -1,6 +1,5 @@
 import React from 'react'
-import { Email, Facebook, Instagram, Twitter } from '../common/Icon'
-
+import Icons from '../common/Icons';
 const Footer = () => {
   const d =  new Date();
     const Year =  d.getFullYear();
@@ -12,10 +11,10 @@ const Footer = () => {
                 All Rights Reserved</h4>
             </div>
             <ul className=' flex md:flex-col gap-3 mt-4 md:mt-0'>
-                <li><a className=' inline-block' href="https://www.facebook.com/" target='_blank'><Facebook/></a></li>
-                <li><a className=' inline-block' href="https://x.com/?lang=en" target='_blank'><Twitter/></a></li>
-                <li><a className=' inline-block' href="https://mail.google.com/mail/u/0/#inbox" target='_blank'><Email/></a></li>
-                <li><a className=' inline-block' href="https://www.instagram.com/" target='_blank'><Instagram/></a></li>
+                <li><a className=' inline-block' href="https://www.facebook.com/" target='_blank'><Icons icon="Facebook"/></a></li>
+                <li><a className=' inline-block' href="https://x.com/?lang=en" target='_blank'><Icons icon="Twitter"/></a></li>
+                <li><a className=' inline-block' href="https://mail.google.com/mail/u/0/#inbox" target='_blank'><Icons icon="Gmail"/></a></li>
+                <li><a className=' inline-block' href="https://www.instagram.com/" target='_blank'><Icons icon="Instagram"/></a></li>
             </ul>
         </div>
 

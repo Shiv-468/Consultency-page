@@ -1,15 +1,27 @@
-import React from 'react'
+
+import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import MJH4 from '../assets/images/svg/MJH4.svg'
-import Chatting from '../assets/images/svg/chatting.svg'
-import AnalysisEllipse from '../assets/images/webp/AnalysisEllipse.webp'
-import SliderEllipse from '../assets/images/webp/SliderEllipse.webp'
-import { NextArrow, PrevArrow } from '../common/Icon';
-import { Autoplay } from 'swiper/modules';
+import MJH4 from '../assets/images/svg/MJH4.svg';
+import Chatting from '../assets/images/svg/chatting.svg';
+import AnalysisEllipse from '../assets/images/webp/AnalysisEllipse.webp';
+import SliderEllipse from '../assets/images/webp/SliderEllipse.webp';
+import Icons from '../common/Icons';
+const NextArrow = ({ onClick }) => (
+  <div className="custom-arrow custom-next-arrow" onClick={onClick}>
+    <span><Icons icon="NextArrowSvg"/></span>
+  </div>
+);
+
+// Custom Prev Arrow Component
+const PrevArrow = ({ onClick }) => (
+  <div className="custom-arrow custom-prev-arrow" onClick={onClick}>
+    <span><Icons icon="PrevArrowSvg"/></span>
+  </div>
+);
 const Analysis = () => {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     fade: true,
@@ -17,8 +29,8 @@ const Analysis = () => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     speed: 500,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    autoplay: false,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
@@ -32,7 +44,7 @@ const Analysis = () => {
           justifyContent: 'center',
         }}
       >
-        <ul style={{ margin: '0px' }} className='custom-dots'> {dots} </ul>
+        <ul style={{ margin: '0px auto' }} className='custom-dots'> {dots} </ul>
       </div>
     ),
   };
